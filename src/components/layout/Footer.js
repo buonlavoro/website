@@ -38,6 +38,8 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
             <div className="footer-copyright">
+              <p style={{ margin: 0 }}>Email: info@buonlavoro.co.in</p>
+              <p>Phone: +91 958-109-8888</p>
               Copyright <a href="https://buonlavoro.co.in">Buon Lavoro</a>. All
               right reserved
             </div>

@@ -112,24 +112,24 @@ const Header = ({
                     )}
                   >
                     <li>
-                      <Link to="#0" onClick={closeMenu}>
-                        About Us
+                      <Link to="/" onClick={closeMenu}>
+                        Home
                       </Link>
                     </li>
                   </ul>
-                  {!hideSignin && (
+                  {/* {!hideSignin && (
                     <ul className="list-reset header-nav-right">
                       <li>
                         <Link
-                          to="#0"
+                          to="/contact"
                           className="button button-primary button-wide-mobile button-sm"
                           onClick={closeMenu}
                         >
-                          Contact Us
+                          Contact
                         </Link>
                       </li>
                     </ul>
-                  )}
+                  )} */}
                 </div>
               </nav>
             </>

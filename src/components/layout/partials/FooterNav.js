@@ -8,11 +8,11 @@ const FooterNav = ({ className, ...props }) => {
   return (
     <nav {...props} className={classes}>
       <ul className="list-reset">
+        {/* <li>
+          <Link to="/contact">Contact</Link>
+        </li> */}
         <li>
-          <Link to="#0">Contact</Link>
-        </li>
-        <li>
-          <Link to="#0">About us</Link>
+          <Link to="/">Home</Link>
         </li>
         {/* <li>
           <Link to="#0">FAQ's</Link>
